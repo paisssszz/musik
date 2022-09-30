@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.logout a{
+    position: relative;
+    float: right;
+    font-size: 30px;
+    text-decoration: none;
+    list-style-type: none;
+}
+.logout{
+    width: 1363px;
+    height: 40px;
+    background-color: aqua;
+}

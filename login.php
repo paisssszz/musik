@@ -9,13 +9,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-<div class="opm" style="display: flex; flex-wrap: wrap;justify-content: center;position: relative;top:  110px; border: black 3px solid; width: 400px; left: 35%; border-top-left-radius: 1em; border-top-right-radius: 1em; border-bottom-right-radius: 1em; border-bottom-left-radius: 1em; background-color: grey; height: 500px;>">
+<div class="opm" style="display: flex; flex-wrap: wrap;justify-content: center;position: relative;top:  110px; border: black 3px solid; width: 400px; left: 35%; border-radius: 1px; background-color: #D2D6DC; height: 400px; border: none;">
+    <div class="logo"><img src="asdw.png" alt=""></div>
     <form method="post">
-        <input type="text" name="user" placeholder="Username" style="position: absolute; width: 360px; height: 30px; left: 15px; top: 200px; border-radius: 20px; border: none; padding: 4px;"><br>
-        <input type="password" name="pas" placeholder="password" style="position: absolute; width: 360px; height: 30px; left: 15px; top: 265px; border-radius: 20px; border: none; padding: 4px;"><br>
-        <button type="submit" name="login" style="position: absolute; width: 100px; height: 40px; left: 139px; top: 335px; border-radius: 20px; border:">Login</button>
+        <input type="text" name="user" placeholder="Username" required style="position: absolute; width: 360px; height: 30px; left: 15px; top: 100px; border-radius: 5px; border: none; padding: 4px; font-size: 15px;"><br>
+        <input type="password" name="pas" placeholder="Password" required style="position: absolute; width: 360px; height: 30px; left: 15px; top: 165px; border-radius: 5px; border: none; padding: 4px;font-size: 15px;"><br>
+        <button type="submit" name="login" style="position: absolute; width: 360px; height: 40px; left: 15px; top: 275px; border-radius: 3px; border: none; font-size: 20px; cursor:pointer;">Login</button>
     </form>
 </div>
 

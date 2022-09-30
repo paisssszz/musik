@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+button{
+    color: black;
+}
+
+button:hover{
+    background-color: #243A73;
+    color: aliceblue;
+    transition: 0.3s;
+}
+
+.logo img{
+    position: absolute;
+    width: 102px;
+    height: 73px;
+    left: 144px;
+    top: 3px;
+}
