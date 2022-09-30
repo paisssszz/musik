@@ -1,8 +1,10 @@
 *{
-    margin: 0;
+    margin: 0px;
     padding: 0;
     box-sizing: border-box;
+    height: 5000px;
 }
+
 
 .navbar img{
     position: absolute;
@@ -34,7 +36,7 @@
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
-    font-size: 16px;
+    font-size: 20px;
     line-height: 20px;
     color: black;
     text-decoration: none;
@@ -42,15 +44,260 @@
 }
 
 .navbar{
-    position: fixed;
+    position: absolute;
     top: 0;
-    width: 1364px;
+    width: 1348px;
     height: 80.44px;
     left: 0px;
     top: 0px;
     background: #7D7B7B;
 }
 
-.logo img:hover{
-    background-color: aqua;
+.gambar1 img{
+    position: absolute;
+    width: 1358px;
+    height: 229px;
+    margin-top: 75px;
+    left: -10px;
+    border-radius: 0px;
+    
+}
+
+.foto1 img{
+    position: absolute;
+    width: 596px;
+    height: 510px;
+    left: 30px;
+    top: 395px;
+
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),;
+    border-radius: 10px;
+}
+
+.reggae img{
+    position: absolute;
+    width: 187.3px;
+    height: 146.92px;
+    left: 730px;
+    top: 397.96px;
+
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(image.png);
+    border-radius: 10px;
+}
+
+.rock img{
+    position: absolute;
+    width: 187.3px;
+    height: 146.92px;
+    left: 930px;
+    top: 397.96px;
+
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(image.png);
+    border-radius: 10px;
+}
+
+.dangdut img{
+    position: absolute;
+    width: 187px;
+    height: 147px;
+    left: 1130px;
+    top: 398px;
+
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(opx.jpg);
+    border-radius: 10px;
+}
+
+.alterf img{
+    position: absolute;
+    width: 187.3px;
+    height: 146.92px;
+    left: 730px;
+    top: 577.97px;
+
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(image.png);
+    border-radius: 10px;
+
+}
+
+.blues img{
+    position: absolute;
+    width: 187.3px;
+    height: 146.92px;
+    left: 930px;
+    top: 577.97px;
+
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(image.png);
+    border-radius: 10px;
+}
+
+.acou img{
+    position: absolute;
+    width: 187.3px;
+    height: 146.92px;
+    left: 1130px;
+    top: 577.97px;
+
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(image.png);
+    border-radius: 10px;
+}
+
+.clasic img{
+    position: absolute;
+    width: 187.3px;
+    height: 146.92px;
+    left: 730px;
+    top: 757.97px;
+
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(image.png);
+    border-radius: 10px;
+}
+
+.rap img{
+    position: absolute;
+    width: 187.3px;
+    height: 146.92px;
+    left: 930px;
+    top: 757.97px;
+
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(image.png);
+    border-radius: 10px;
+}
+
+.hardcore img{
+    position: absolute;
+    width: 187.3px;
+    height: 146.92px;
+    left: 1130px;
+    top: 757.97px;
+
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(image.png);
+border-radius: 10px;
+}
+
+.punk img{
+    position: absolute;
+    width: 187.3px;
+    height: 146.92px;
+    left: 30px;
+    top: 972.04px;
+
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(image.png);
+    border-radius: 10px;
+}
+
+
+.s img{
+    position: absolute;
+    width: 187.3px;
+    height: 146.92px;
+    left: 235px;
+    top: 972.04px;
+
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(image.png);
+    border-radius: 10px;
+}
+
+
+.indie img{
+    position: absolute;
+    width: 187.3px;
+    height: 146.92px;
+    left: 440px;
+    top: 972.04px;
+
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(image.png);
+    border-radius: 10px;
+}
+
+.coun img{
+    position: absolute;
+    width: 187.3px;
+    height: 146.92px;
+    left: 30px;
+    top: 1152.04px;
+
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(image.png);
+    border-radius: 10px;
+
+}
+
+.jazz img{
+    position: absolute;
+    width: 187.3px;
+    height: 146.92px;
+    left: 235px;
+    top: 1152.04px;
+
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(image.png);
+    border-radius: 10px;
+
+}
+
+
+.pop img{
+    position: absolute;
+    width: 187.3px;
+    height: 146.92px;
+    left: 440px;
+    top: 1152.04px;
+
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(image.png);
+    border-radius: 10px;
+}
+
+.rock2 img{
+    position: absolute;
+    width: 187.3px;
+    height: 146.92px;
+    left: 30px;
+    top: 1332.05px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(image.png);
+    border-radius: 10px;
+}
+
+.hiphop img{
+    position: absolute;
+    width: 187.3px;
+    height: 146.92px;
+    left: 235px;
+    top: 1332.05px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(image.png);
+    border-radius: 10px;
+}
+
+.rnb img{
+    position: absolute;
+    width: 187.3px;
+    height: 146.92px;
+    left: 440px;
+    top: 1332.05px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(image.png);
+    border-radius: 10px;
+}
+
+.foto2 img{
+    position: absolute;
+    width: 597px;
+    height: 510px;
+    left: 730px;
+    top: 969px;
+
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(ops2.jpg);
+    border-radius: 10px;
+}
+
+.judul{
+    position: absolute;
+    width: 300px;
+    height: 56px;
+    left: 584px;
+    top: 1665px;
+
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 56px;
+
+    color: #000000;
 }
