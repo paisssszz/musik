@@ -20,7 +20,7 @@
     padding: 4px;
 }
 
-.navbar ul li{
+.navbar ul li a{
     position: absolute;
     width: 64.89px;
     height: 15.86px;
@@ -33,6 +33,7 @@
     line-height: 20px;
     color: black;
     text-decoration: none;
+    list-style-type: none;
 }
 
 .navbar{
@@ -43,4 +44,8 @@
     left: 0px;
     top: 0px;
     background: #7D7B7B;
+}
+
+.logo img:hover{
+    color: aliceblue;
 }
